@@ -10,8 +10,11 @@ def number_to_string(num):
         return str(num)
 
 #Remove String Spaces
-
+def no_space(x):
+        
+        return x.replace(' ', '')
 
 #Vowel Count
-
+def get_count(sentence):
+        return sum(sentence.count(v) for v in "aeiou")
 
